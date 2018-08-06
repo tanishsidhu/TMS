@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/tonystar/bootstrap-float-label/v4.0.2/bootstrap-float-label.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/feedback.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-sm-6 offset-sm-3 col-12">
+                <form class="card w-100 card-block bg-faded">
+                      <legend class="m-b-1 text-center text-info"> <strong><span style="color:#CE1815;">Feedback</span></strong></legend>
+                      <div class="form-group input-group">
+                        <span class="has-float-label">
+                          <input class="form-control" id="first" type="text" placeholder="Enter first name" required/>
+                          <label for="first">First name</label>
+                        </span>
+                      </div>
+                      <div class="form-group input-group">
+                        <span class="has-float-label">
+                          <input class="form-control" id="last" type="text" placeholder="Enter last name" required/>
+                          <label for="last">Last name</label>
+                        </span>
+                      </div>
+                      <div class="form-group input-group">
+                        <span class="has-float-label">
+                          <input class="form-control" id="email" type="email" placeholder="email@example.com" required/>
+                          <label for="email">Email</label>
+                        </span>
+                      </div>
+                      <div class="form-group input-group">
+                        <span class="has-float-label">
+                          <input class="form-control" id="contact" type="number" placeholder="Enter mobile no" maxlength="10" required/>
+                          <label for="contact">Mobile no</label>
+                        </span>
+                      </div>
+                      <div class="form-group input-group">
+                        <span class="has-float-label">
+                          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message" required></textarea>
+                          <label for="message">Message</label>
+                        </span>
+                      </div>
+                      <button class="btn btn-block btn-info" style="background-color:#CE1815;">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

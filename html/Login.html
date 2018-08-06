@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TMS-Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/my-login.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<script src="js/my-login.js"></script>
+</head>
+<body class="my-login-page bg-dark">
+	<img  class="rounded mx-auto d-block" src="cu_logo.png">
+		<div class="container">
+				<div class="card-wrapper">
+					<div class="card fat">
+						<div class="card-body">
+							<h5 class="card-title"><b>Log in to TMS</b></h5>
+							<form method="POST">
+								<div class="form-group">
+									<label for="roll">University ID</label>
+									<input id="roll" type="number" class="form-control" name="uid" value="" required>
+								</div>
+								<div class="form-group">
+									<label for="password">Password</label>
+									<input id="password" type="password" class="form-control" name="password" required>
+								</div>
+								<div class="form-group">
+									<label>
+										<input type="checkbox" name="remember"> Remember Me
+									</label>
+								</div>
+								<div class="form-group no-margin">
+									<button type="submit" class="btn btn-primary btn-block" style="background:#CE1815;" onclick="window.location='index-parking.html';">
+										Login
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="footer">
+						Copyright &copy; 2018 &mdash; Chitkara University/Transport Management
+					</div>
+				</div>
+		</div>
+</body>
+</html>
